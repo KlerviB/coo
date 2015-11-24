@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("d7a11da7-79d2-4763-8aef-992e8da92cf6")
+public class Course {
+    @objid ("5b921a5f-0100-48ca-a1c0-6a8132dd2bbf")
+    public Motorisation motorisation;
+    public ArrayList<Voiture> voitu;
+    @objid ("fdddf9ba-a5e6-4467-829e-6f3066c6b0d3")
+    public void inscrireVoitureMotorisee(Motorisation m) {
+    	voitu.add(m);
+    }
+
+    @objid ("3ba78f91-cfc0-4939-bf89-0ef3c7de761c")
+    public void simulerCourse(float d) {
+    	System.out.println("la course commence");
+		
+    	for(int i=0; i<=d;i++)
+    	{
+    		System.out.println("temps: "+i);
+    		for(int j = 0; j<voitu.size();j++)
+    		{
+    			Motorisation m= voitu.get(j);
+    			float distance= m.distanceParcourue(i);
+    			
+    			System.out.println(m.getModele)()+ "a fait"+ distance+"km");
+    		}
+    	}
+    }
+
+}

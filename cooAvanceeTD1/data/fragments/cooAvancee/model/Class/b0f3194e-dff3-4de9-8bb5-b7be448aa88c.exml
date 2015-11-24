@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="magnetiser" version="3">
+  <DEPS>
+    <ID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+    <EXTID name="Manipuler" mc="Interface" uid="06c019b5-6a96-4056-9670-b13dcf606911"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+    <PID name="cooavancee" mc="Package" uid="1c8cfab7-9a88-4917-8169-96fc39ef096f"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[magnetiser]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="saisir" mc="Operation" uid="125c35e7-de1a-4e3f-b729-3a6bee9c8fce"/>
+          <PID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[saisir]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Redefines">
+              <REFOBJ>
+                <ID name="saisir" mc="Operation" uid="efd08901-494e-4f2d-87ee-1492906c0af0"/>
+                <PID name="Manipuler" mc="Interface" uid="06c019b5-6a96-4056-9670-b13dcf606911"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="pincer" mc="Operation" uid="96dd30f6-b92f-461f-84bb-248662e1d600"/>
+          <PID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[pincer]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="relacher" mc="Operation" uid="49ad5dd8-86fe-4df3-86c2-254dd8030666"/>
+          <PID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[relacher]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Redefines">
+              <REFOBJ>
+                <ID name="relacher" mc="Operation" uid="5ed56c1e-3f40-4671-98f4-f4c8fa2012c5"/>
+                <PID name="Manipuler" mc="Interface" uid="06c019b5-6a96-4056-9670-b13dcf606911"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="InterfaceRealization" uid="79efe1f6-8a66-4bcb-81d2-2c648980bbde"/>
+          <PID name="magnetiser" mc="Class" uid="b0f3194e-dff3-4de9-8bb5-b7be448aa88c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="Manipuler" mc="Interface" uid="06c019b5-6a96-4056-9670-b13dcf606911"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,14 @@
+
+public class TestVoiture {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Voiture voit1= new Ferrari();
+		
+
+	}
+
+}

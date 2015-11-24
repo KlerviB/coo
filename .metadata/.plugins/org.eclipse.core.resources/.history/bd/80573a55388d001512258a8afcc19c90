@@ -1,0 +1,20 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("2e7150ac-33c4-4cb7-aabe-08513cc5b5e0")
+public class Diesel extends Voiture {
+    @objid ("f36f2a55-e905-4640-addd-78e1bea38d3a")
+    public String Attribute;
+
+    @objid ("cef87629-9036-4bfd-b9a2-c5e07e4fb274")
+    public void Operation() {
+    }
+
+    @objid ("97767a9c-c11d-4810-b190-727356526214")
+    public void Operation1() {
+    }
+
+    @objid ("0a22260c-4937-4918-baa6-af9546d5c96f")
+    public void Operation2() {
+    }
+
+}

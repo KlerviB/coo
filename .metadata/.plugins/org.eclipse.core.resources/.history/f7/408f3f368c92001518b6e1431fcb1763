@@ -1,0 +1,24 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("4b46fa8b-898a-4f26-aa4e-5e3c8fe9309e")
+public class Freinage extends Voiture {
+    @objid ("a0d01e1f-93cc-42bf-bec7-efba1b9456df")
+    public Voiture voiture;
+
+    @objid ("ba156877-3b68-490b-a10f-0b65e6b04e61")
+    public int prix() {
+    }
+
+    
+
+    public Voiture getVoiture() {
+		return voiture;
+	}
+
+
+
+	@objid ("c68ed254-a532-4574-82c7-7c9e60044861")
+    public Freinage(Voiture voit) {
+    }
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cooAvancee" version="3">
+  <DEPS>
+    <ID name="cooAvancee" mc="AnalystProject" uid="c42d532c-4392-4678-9e9b-2d9b1e121da4"/>
+    <COMPID name="cooAvancee" mc="PropertyContainer" uid="891058c6-d2e3-4757-8a25-befca710a075"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="cooAvancee" mc="AnalystProject" uid="c42d532c-4392-4678-9e9b-2d9b1e121da4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[cooAvancee]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="cooAvancee" mc="PropertyContainer" uid="891058c6-d2e3-4757-8a25-befca710a075"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

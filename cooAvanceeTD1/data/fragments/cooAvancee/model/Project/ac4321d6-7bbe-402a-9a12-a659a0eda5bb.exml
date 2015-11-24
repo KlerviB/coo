@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cooAvancee" version="3">
+  <DEPS>
+    <ID name="cooAvancee" mc="Project" uid="ac4321d6-7bbe-402a-9a12-a659a0eda5bb"/>
+    <COMPID name="cooAvancee" mc="DiagramSet" uid="e79a04a9-0593-4cce-a522-990ec0a5347c"/>
+    <COMPID name="cooavancee" mc="Package" uid="1c8cfab7-9a88-4917-8169-96fc39ef096f"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="cooAvancee" mc="Project" uid="ac4321d6-7bbe-402a-9a12-a659a0eda5bb"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[cooAvancee]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="cooAvancee" mc="DiagramSet" uid="e79a04a9-0593-4cce-a522-990ec0a5347c"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="cooavancee" mc="Package" uid="1c8cfab7-9a88-4917-8169-96fc39ef096f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

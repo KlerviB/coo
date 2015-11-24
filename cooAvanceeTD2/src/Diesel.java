@@ -1,0 +1,26 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("2e7150ac-33c4-4cb7-aabe-08513cc5b5e0")
+public class Diesel extends Motorisation {
+    @objid ("f36f2a55-e905-4640-addd-78e1bea38d3a")
+    public int prix = 1500;
+
+    @objid ("cef87629-9036-4bfd-b9a2-c5e07e4fb274")
+    public int prix() {
+		return prix;
+    }
+
+    @objid ("97767a9c-c11d-4810-b190-727356526214")
+    public Diesel(Voiture voit, int masse, int force) {
+    	super(voit);
+    	super.force=force;
+    	super.masse=masse;
+    }
+
+    @objid ("1f697b99-ce02-48c8-8176-d8de89dc5450")
+    @Override
+    public String toString() {
+        return "Diesel [prix=" + prix + "]";
+    }
+
+}
