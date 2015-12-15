@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cooavanceetd4" version="3">
+  <DEPS>
+    <ID name="cooavanceetd4" mc="Package" uid="20e971de-7921-4141-a8af-6d4d7269881e"/>
+    <COMPID name="Noeud" mc="Class" uid="c05e4deb-2c12-4402-bfae-3d114d2bc756"/>
+    <COMPID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+    <COMPID name="NoeudSujet" mc="Class" uid="2578de33-93e8-4013-a169-7f24f00ba3cc"/>
+    <COMPID name="NoeudSujetObservateur" mc="Class" uid="be7e6f27-cd23-4046-ad6e-3f748e3c177a"/>
+    <COMPID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+    <COMPID name="Sujet" mc="Interface" uid="761a8d45-ca9d-4470-aee5-e4349558406d"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="243533fb-e89a-4e02-bbea-d1c2d3e41baf"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="cooavanceetd4" mc="Package" uid="20e971de-7921-4141-a8af-6d4d7269881e"/>
+    <PID name="cooAvanceeTD4" mc="Project" uid="8da07cdd-ca95-4846-9d18-2558a81b4a97"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cooavanceetd4]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Noeud" mc="Class" uid="c05e4deb-2c12-4402-bfae-3d114d2bc756"/>
+        <COMPID name="Sujet" mc="Interface" uid="761a8d45-ca9d-4470-aee5-e4349558406d"/>
+        <COMPID name="NoeudSujet" mc="Class" uid="2578de33-93e8-4013-a169-7f24f00ba3cc"/>
+        <COMPID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+        <COMPID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+        <COMPID name="NoeudSujetObservateur" mc="Class" uid="be7e6f27-cd23-4046-ad6e-3f748e3c177a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="243533fb-e89a-4e02-bbea-d1c2d3e41baf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

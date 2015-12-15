@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NoeudObservateur" version="3">
+  <DEPS>
+    <ID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+    <EXTID name="Noeud" mc="Class" uid="c05e4deb-2c12-4402-bfae-3d114d2bc756"/>
+    <EXTID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaFullName" mc="TagType" uid="01241558-0000-18b7-0000-000000000000"/>
+    <FOREIGNID name="JavaFullName" mc="TagType" uid="01241558-0000-18ba-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+    <PID name="cooavanceetd4" mc="Package" uid="20e971de-7921-4141-a8af-6d4d7269881e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[NoeudObservateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="actualiser" mc="Operation" uid="bc3c217e-a2ba-4621-8d64-0c2fd69c5d67"/>
+          <PID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[actualiser]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Redefines">
+              <REFOBJ>
+                <ID name="actualiser" mc="Operation" uid="80ee2b15-261e-4143-af25-419efcec67f2"/>
+                <PID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="cff0666a-397b-4d7e-9444-5ab079214cd0"/>
+          <PID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Noeud" mc="Class" uid="c05e4deb-2c12-4402-bfae-3d114d2bc756"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="47cf5ee9-05a7-4a1f-8d24-310041bcedfd"/>
+                <PID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaFullName" mc="TagType" uid="01241558-0000-18b7-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="InterfaceRealization" uid="10ed1333-5281-4210-96ef-16565f199b2b"/>
+          <PID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="d533fc4f-2129-4e7e-ad95-7a9fcf0e316e"/>
+                <PID name="NoeudObservateur" mc="Class" uid="cb836f4b-01e4-4ae1-ac48-5505b438d3cb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaFullName" mc="TagType" uid="01241558-0000-18ba-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

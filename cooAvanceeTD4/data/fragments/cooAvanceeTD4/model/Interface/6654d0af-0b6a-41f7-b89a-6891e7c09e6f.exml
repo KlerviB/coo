@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Observateur" version="3">
+  <DEPS>
+    <ID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+    <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+    <PID name="cooavanceetd4" mc="Package" uid="20e971de-7921-4141-a8af-6d4d7269881e"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Observateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="actualiser" mc="Operation" uid="80ee2b15-261e-4143-af25-419efcec67f2"/>
+          <PID name="Observateur" mc="Interface" uid="6654d0af-0b6a-41f7-b89a-6891e7c09e6f"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">true</ATT>
+            <ATT name="Name"><![CDATA[actualiser]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
